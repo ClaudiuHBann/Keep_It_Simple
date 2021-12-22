@@ -83,10 +83,7 @@ int main()
 		{
 			DWORD entity = RPM<DWORD>(csgoHandle, (uintptr_t)csgoHandleClient + dwEntityList + i * 0x10);
 
-			if (entity)
-			{
-				WPM<bool>(csgoHandle, entity + m_bSpotted, true);
-			}
+			WPM<bool>(csgoHandle, entity + m_bSpotted, true);
 		}
 
 		Sleep(1);
