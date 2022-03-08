@@ -356,7 +356,7 @@ void GlowHack()
 
 void RecoilCrosshair()
 {
-	HWND hwnd = FindWindow(nullptr, L"Counter-Strike: Global Offensive - Direct3D 9");
+	HWND hwnd = FindWindow(nullptr, L"Counter-Strike: Global Offensive");
 
 	HDC hdc = GetDC(hwnd);
 	HBRUSH hbrush = CreateSolidBrush(RGB(255, 255, 255));
