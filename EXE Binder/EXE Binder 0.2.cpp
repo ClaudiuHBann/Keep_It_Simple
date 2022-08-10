@@ -73,7 +73,7 @@ void Open(const ::std::string& file, const bool hide = true) {
 		::std::string fileToCreate(content.substr(fileToCreateStart, fileToCreateSize));
 
 		const auto fileStart = occurancesPoss[i + 1] + SEPARATOR_SIZE;
-		const auto fileSize = (i == occurancesPoss.size() - 1) ? ::std::string::npos : occurancesPoss[i + 2] - fileStart;
+		const auto fileSize = (i == occurancesPoss.size() - 2) ? ::std::string::npos : occurancesPoss[i + 2] - fileStart;
 
 		FindFileNameCopy(fileToCreate);
 
