@@ -6,6 +6,6 @@
 ### Finished projects:
 - [CS GO External Cheat](https://github.com/ClaudiuHBann/Keep_It_Simple/tree/main/CS%20GO%20External%20Cheat) (Console App) (C/C++)
 
-### Working on projects:
+### Abandoned projects:
 - [File Binder](https://github.com/ClaudiuHBann/Keep_It_Simple/tree/main/EXE%20Binder) (Console App) (C/C++)
 - [File Binder](https://github.com/ClaudiuHBann/File_Binder) (WinUI3 App) (C++/WinRT)
